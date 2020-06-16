@@ -1,0 +1,159 @@
+@media all and (max-width:1600px) {
+    .baner h1 {
+        right: 60.5%;
+    }
+}
+
+
+@media all and (max-width:1024px) {
+    .container {
+        padding: 0 20px;
+    }
+
+
+}
+
+@media all and (max-width:768px) {
+    .boxInfo .turbineImg {
+        width: 349px;
+    }
+
+    .baner h1 {
+        right: 7%;
+        font-size: 60px;
+    }
+
+    .columnInfo {
+        word-break: break-word;
+    }
+
+    .img {
+        margin-left: 0;
+    }
+
+    .three_column_section:last-of-type .column img {
+        width: 100%;
+    }
+
+    .moreOpen a {
+        margin: 0;
+    }
+}
+
+@media all and (max-width:425px) {
+    .img {
+        margin-right: 7.2%;
+    }
+
+    .headerIngredient .notes img {
+        max-width: 87px;
+    }
+
+    .baner {
+        background-size: cover;
+        min-height: 160px !important;
+    }
+
+    .container {
+        max-width: 579px;
+    }
+
+    .baner h1 {
+        font-size: 40px;
+    }
+
+    .headerIngredient .notesText h3 {
+        font-size: 28px;
+        line-height: 26px;
+    }
+
+    .headerIngredient .notesText p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .headerIngredient .notes {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .ingredient {
+        margin: 10px 0 0;
+    }
+
+    .boxInfo {
+        flex-direction: column;
+    }
+
+    .boxInfo .turbineImg {
+        width: 100%;
+    }
+
+    .boxInfo p {
+        width: 100%;
+    }
+
+    .boxInfo .text {
+
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .column img {
+
+        width: 100%;
+    }
+
+    .column img:first-of-type {
+        margin-right: 0%;
+        margin-bottom: 10px;
+    }
+
+    .three_column_section {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+        padding: 10px 0 20px;
+        text-align: center;
+
+    }
+
+    .three_column_section .column {
+        width: 100%;
+
+    }
+
+    .three_column_section:first-of-type .column img {
+        margin: 10px;
+
+    }
+
+    .three_column_section:last-of-type .column img {
+        width: auto;
+
+    }
+
+}
+
+
+@media all and (max-width:320px) {
+
+    .headerIngredient .notes {
+        padding: 20px 15px;
+    }
+
+    .headerIngredient .notes img {
+        width: 70px !important;
+        height: 73px;
+    }
+
+    .headerIngredient .notes .tubes {
+        height: 95px;
+    }
+}

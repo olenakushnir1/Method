@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Avenir LT Std 35 Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 35 Light'), url('../font/AvenirLTStd-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'AvenirLTStd-Book';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 35 Light'), url('../font/AvenirLTStd-Book.woff') format('woff');
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Avenir LT Std 35 Light' !important;
+}
+
+
+
+
+
+
+
+
+.baner {
+    width: 100vw;
+    background-image: url(../ingredients/Header_BeyondTheBottle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left 55% top;
+    min-height: 480px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.baner h1 {
+    font-size: 72px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 500;
+    text-transform: lowercase;
+    color: #fff;
+    position: absolute;
+    right: 23.2%;
+    line-height: 1.1;
+    padding: 0 0 5vw 0;
+}
+
+.allIngredients {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 30px;
+}
+
+.ingredient {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 0;
+}
+
+.ingredient:first-of-type {
+    margin: 0;
+}
+
+.headerIngredient {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #f1f3f4;
+}
+
+.container {
+    max-width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.headerIngredient .sub_page_content {
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    margin: auto;
+    height: 280px;
+    max-width: 90%;
+}
+
+.container .page_info {
+    margin-left: 29.85432%;
+    width: 40%;
+    vertical-align: middle;
+    display: inline-block;
+    height: 211px;
+    box-sizing: inherit;
+}
+
+.container .page_info h2 {
+    font-size: 46px;
+    line-height: 48px;
+    text-transform: lowercase;
+    margin: 0 0 20px;
+    font-family: 'Avenir LT Std 35 Light';
+    font-weight: normal;
+}
+
+.sub_page_content .page_info h3 {
+    font-size: 19px;
+    color: #666;
+    line-height: 32px;
+    font-weight: normal;
+    margin: 0;
+    text-align: left;
+}
+
+.container .button-wrap {
+    margin-top: 20px;
+}
+
+.container .button-wrap .button {
+    -webkit-transition: border-color 0.25s ease-in;
+    -moz-transition: border-color 0.25s ease-in;
+    transition: border-color 0.25s ease-in;
+    background: transparent;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 8px 25px;
+    line-height: 1;
+    cursor: pointer;
+    text-decoration: none;
+    color: #666;
+}
+
+.container .button-wrap .button span {
+
+    font-size: 11px;
+    padding-left: 5px;
+}
+
+
+.sub_page_content .page_info p {
+    font-size: 14px;
+    line-height: 28px;
+    text-align: left;
+    color: #666;
+    font-family: 'AvenirLTStd-Book';
+}
+
+.headerIngredient .featured_image img {
+    width: auto;
+    max-width: 89%;
+    height: auto;
+    position: absolute;
+}
+
+.headerIngredient .featured_image {
+
+    display: flex;
+    margin-right: 8%;
+    width: 23.23176%;
+    position: relative;
+    top: -265px;
+}
+
+.headerIngredient .featured_image.image_right {
+
+    left: 77%;
+
+}
+
+

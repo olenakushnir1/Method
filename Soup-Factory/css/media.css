@@ -1,0 +1,100 @@
+@media all and (max-width:1600px) {
+    .baner h1 {
+        right: 17.2%;
+    }
+}
+
+@media all and (max-width:1440px) {
+    .baner h1 {
+        right: 13.5%;
+    }
+}
+
+@media all and (max-width:1024px) {
+    .container {
+        padding: 0 20px;
+    }
+    .boxInfo .turbineImg {
+        width: 472px;
+    }
+}
+
+@media all and (max-width:768px) {
+    .boxInfo .turbineImg {
+        width: 349px;
+    }
+    .baner h1 {
+        right: 7%;
+        font-size: 60px;
+    }
+    .logo
+    {
+        position: relative;
+        z-index: 4;
+    }
+     .moreOpen a {
+        margin: 0;
+    }
+}
+
+@media all and (max-width:425px) {
+    .img {
+
+     margin-left: 0%; 
+    
+}
+    .baner {
+        background-size: cover;
+        min-height: 160px !important;
+    }
+    .container {
+        max-width: 579px;
+    }
+    .baner h1 {
+        font-size: 40px;
+    }
+    .headerIngredient .notesText h3 {
+        font-size: 28px;
+        line-height: 26px;
+    }
+    .headerIngredient .notesText p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .headerIngredient .notes {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .ingredient {
+        margin: 10px 0 0;
+    }
+    .boxInfo {
+        flex-direction: column;
+    }
+    .boxInfo .turbineImg {
+        width: 100%;
+    }
+    .boxInfo p {
+        width: 100%;
+    }
+    .boxInfo .turbineImg {
+ 
+    margin-right: 0;
+    margin-left: 0;
+}
+}
+
+
+@media all and (max-width:320px) {
+   
+    .headerIngredient .notes {
+        padding: 20px 15px;
+    }
+    .headerIngredient .notes img {
+        width: 70px!important;
+        height: 73px;
+    }
+    .headerIngredient .notes .tubes {
+        height: 95px;
+    }
+}

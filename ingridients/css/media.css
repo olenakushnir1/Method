@@ -1,0 +1,145 @@
+@media all and (max-width:1600px) {
+    table {
+        margin-left: 0;
+    }
+    .three_column_section {
+        margin-left: 0;
+    }
+    .baner h1 {
+        right: 17.2%;
+    }
+}
+
+@media all and (max-width:1440px) {
+    .baner h1 {
+        right: 13.5%;
+    }
+    .fa-chevron-left:before {
+   
+    top: 5px;
+}
+}
+
+@media all and (max-width:1024px) {
+    .slideUpDown {
+        width: 984px;
+    }
+    .container {
+        max-width: 984px;
+    }
+    .slider {
+        width: 984px;
+    }
+ 
+}
+
+@media all and (max-width:768px) {
+    .slideUpDown {
+        width: 100%;
+        padding-top: 20px;
+    }
+    .container {
+        max-width: 728px;
+    }
+    .slider {
+        width: 728px;
+    }
+    .baner h1 {
+        right: 7%;
+        font-size: 60px;
+    }
+    .img {
+        margin-left: 0;
+    }
+      .moreOpen a
+    {
+        margin: 0;
+    }
+     
+ 
+}
+
+@media all and (max-width:425px) {
+    .baner {
+        background-size: cover;
+        min-height: 160px !important;
+    }
+    .container {
+        max-width: 579px;
+    }
+    .slider {
+        width: 579px;
+    }
+    table {
+        width: 579px!important;
+    }
+
+    .baner h1 {
+        font-size: 40px;
+    }
+    .img {
+        margin-right: 25px;
+    }
+    .headerIngredient .notesText h3 {
+        font-size: 28px;
+        line-height: 26px;
+    }
+    .headerIngredient .notesText p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .headerIngredient .notes {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .ingredient {
+        margin: 10px 0 0;
+    }
+    .three_column_section {
+        flex-direction: column;
+        padding-bottom: 20px;
+        padding: 10px 0;
+    }
+
+    .three_column_section .column {
+        width: 385px;
+        margin-top: 53px;
+    }
+    .three_column_section .column:first-of-type {
+        
+        margin-top: 0;
+    }
+    .mobVer
+    {
+        margin-top: 10px!important;
+    }
+     .mobVer2
+    {
+        margin-top: 20px!important;
+    }
+}
+
+@media all and (max-width:375px) {
+
+   
+    .three_column_section .column {
+        width: 335px;
+    }
+}
+
+@media all and (max-width:320px) {
+   
+    .three_column_section .column {
+        width: 280px;
+    }
+    .headerIngredient .notes {
+    padding: 20px 15px;
+}
+    .headerIngredient .notes img {
+    width: 70px!important;
+        height: 73px;
+}
+    .headerIngredient .notes .tubes {
+    height: 95px;
+}
+}

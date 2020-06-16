@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Avenir LT Std 35 Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 35 Light'), url('../font/AvenirLTStd-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'AvenirLTStd-Book';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 35 Light'), url('../font/AvenirLTStd-Book.woff') format('woff');
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Avenir LT Std 35 Light';
+}
+
+.baner {
+    width: 100vw;
+    background-image: url(../ingredients/header-ingredients-new.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left 55% top;
+    min-height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.baner h1 {
+    font-size: 72px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 500;
+    text-transform: lowercase;
+    color: #fff;
+    position: absolute;
+    right: 23.2%;
+    line-height: 1.1;
+}
+
+.allIngredients {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 30px;
+}
+
+.ingredient {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 0;
+}
+
+.ingredient:first-of-type {
+    margin: 0;
+}
+
+.headerIngredient {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #f1f3f4;
+}
+
+.headerIngredient .position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+.headerIngredient .notes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    width: 100%;
+}
+
+.headerIngredient .notes img {
+    max-width: 100%;
+}
+
+.img {
+    margin-right: 3.2%;
+    width: 22.01%;
+    margin-left: 8.5298%;
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.headerIngredient .notesText {
+    width: 48.82117%;
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.headerIngredient .notesText h3 {
+    font-size: 48px;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 20px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: normal;
+}
+
+.headerIngredient .notesText p {
+    font-family: 'AvenirLTStd-Book';
+    -webkit-font-smoothing: antialiased;
+    font-size: 18px;
+    line-height: 32px;
+    color: #54565B;
+}
+
+.headerIngredient .moreOpen,
+.headerIngredient .moreClose {
+    position: absolute;
+    right: 5%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerIngredient .moreOpen a,
+.headerIngredient .moreClose a {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.headerIngredient .moreOpen a:before {
+    content: '+';
+}
+
+.headerIngredient .moreClose a:before {
+    content: '-';
+}
+
+.ingredientInfo {
+    display: none;
+    width: 100%;
+    padding: 20px 0;
+    height: auto;
+    justify-content: center;
+}
+
+.slideUpDown {
+    display: flex;
+    flex-direction: column;
+    width: 1024px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.ingredientInfo table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'AvenirLTStd-Book';
+    opacity: 0.8;
+}
+.ingredientInfo table thead th {
+    border-bottom: 1px solid #ddd;
+}
+
+.ingredientInfo table thead {
+    background-color: #d9edf7;
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+.ingredientInfo table th {
+    padding: 8px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+tr:nth-child(even) {
+    background-color: #e7ece0;
+}
+
+.ingredientInfo table td {
+    padding: 8px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 32px;
+    vertical-align: top;
+}
+   .ingredientInfo {
+    
+    padding: 20px;
+}
+
+
+/*slider*/
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.slider {
+    width: 1024px;
+}
+
+.previous,
+.next {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #111;
+    display: inline-block;
+    position: relative;
+    
+    margin: 0 5px;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.previous:hover {
+    text-decoration: none;
+}
+
+.fa-chevron-left:before {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 0.1em 0.1em #54565B;
+    height: 14px;
+    width: 14px;
+    line-height: 1;
+    color: #d9edf7;
+    position: relative;
+    top: 6px;
+    text-decoration: none!important;
+    cursor: pointer;
+}
+
+.fa-chevron-left,.fa-chevron-right
+{
+    cursor: pointer;
+}
+
+.previousDefoult {
+    color: #999;
+    text-decoration: none;
+    cursor: default;
+}
+
+.fa-chevron-leftDef:before {
+    color: #f9f9f9;
+}
+
+.fa-chevron-rightDef:before {
+    color: #f9f9f9!important;
+}
+
+.nextDefoult {
+    color: #999;
+    text-decoration: none;
+    cursor: default;
+}
+
+.next:hover {
+    text-decoration: none;
+}
+
+.fa-chevron-right:before {
+    text-align: right;    
+    left: auto;
+    font-size: 14px;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 0.1em 0.1em #666;
+    height: 14px;
+    width: 14px;
+    line-height: 1;
+    color: #d9edf7;
+    box-sizing: inherit;
+    position: relative;
+    top: 6px;
+    text-decoration: none;
+}
+
+.slider-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.slider-nav li {
+    display: flex;
+    flex: 2;
+    text-align: center;
+}
+
+table {
+    display: none;
+    margin-left: 15px;
+}
+
+table.active {
+    display: block;
+}
+
+.slider-nav .arrow {
+    flex: 0 0 0%;
+}
+
+.slider-nav a {
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.slider-nav span {
+    display: block;
+    width: 100%;
+}
+
+.three_column_section {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    padding: 10px 0 40px;
+    margin-left: 15px;
+}
+
+.three_column_section .column {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+}
+.three_column_section .column:last-of-type {
+    
+    margin-right: 0;
+}
+.three_column_section .column img {
+   margin: 0 0 10px;
+}
+
+.three_column_section .columnInfo h3 {
+    margin: 0 0 10px;
+    font-size: 23.94px;
+    color: #54565B;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: normal;
+}
+
+.three_column_section .columnInfo p {
+    font-size: 18px;
+    line-height: 32px;
+    color: #54565B;
+    font-family: 'AvenirLTStd-Book';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.greenSpan
+{
+    color: #c3d32d;
+    padding-bottom: 20px;
+    white-space: pre;
+    font-weight: bold;
+    
+}
+tr:hover
+{
+    background-color: #eaf5fa;
+}

@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Avenir LT Std 35 Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 35 Light'), url('font/AvenirLTStd-Light.woff') format('woff');
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Avenir LT Std 35 Light' !important;
+}
+
+.where-to-buy {
+    height: 25px;
+    font-family: 'Avenir LT Std 35 Light';
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #00bcb5;
+}
+
+p {
+    font-family: 'Avenir LT Std 35 Light';
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #54565b;
+}
+
+.container {
+    max-width: 1088px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.shops {
+    display: block;
+    width: 100%;
+}
+
+.shop {
+    width: 200px;
+    height: 200px;
+    background-color: #f7f8fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 17px 18px 0;
+    float: left;
+}
+
+.shop:nth-child(5n) {
+    margin: 0 0 18px;
+}
+
+.Group-8 {
+    width: 120px;
+    height: 119px;
+    object-fit: contain;
+}
+
+.Group-12 {
+    width: 138px;
+    height: 90px;
+    object-fit: contain;
+}
+
+.Group {
+    width: 136px;
+    height: 136px;
+    object-fit: contain;
+}
+
+.Drakes-new-logo {
+    width: 160px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.logo-richies {
+    width: 148px;
+    height: 75px;
+    object-fit: contain;
+}
+
+.Group-26 {
+    width: 137px;
+    height: 78px;
+    object-fit: contain;
+}
+
+.Group-18 {
+    width: 138px;
+    height: 29px;
+    object-fit: contain;
+}
+
+.Group-112 {
+    width: 146px;
+    height: 64px;
+    object-fit: contain;
+}
+
+.Group-83 {
+    width: 156px;
+    height: 51px;
+    object-fit: contain;
+}
+
+.Group-22 {
+    width: 164px;
+    height: 33px;
+    object-fit: contain;
+}
+
+.group1 {
+    width: 146px;
+    height: 71.5px;
+    object-fit: contain;
+}
+
+.Group-47 {
+    width: 156px;
+    height: 33px;
+    object-fit: contain;
+}
+
+.campustrading {
+    width: 131px;
+    height: 53px;
+    object-fit: contain;
+}
+
+.Group-145 {
+    width: 137px;
+    object-fit: contain;
+}
+
+
+@media all and (max-width:1024px) {
+    .shop {
+        width: 184px;
+        height: 184px;
+        margin: 0 10px 10px 0;
+    }
+
+    .container {
+        max-width: 932px;
+    }
+
+    .shops {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .shop {
+        width: 177px;
+        height: 177px;
+        margin: 0 10px 10px 0;
+    }
+}
+
+@media all and (max-width:768px) {
+
+    .container {
+        margin: 0 10px 0 15px;
+    }
+
+    .shops {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .shop {
+        width: 177px;
+        height: 177px;
+        margin: 0 10px 10px 0;
+    }
+
+    .shop:nth-child(5n) {
+        margin: 0 10px 10px 0;
+    }
+
+    .shop:nth-child(4n) {
+        margin: 0 0px 10px 0;
+    }
+}
+
+@media all and (max-width:425px) {
+
+    .shop:nth-child(5n) {
+        margin: 0 10px 10px 0;
+    }
+
+    .shop {
+        width: 155px;
+        height: 155px;
+    }
+
+    .container {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .Group-8 {
+        width: 90px;
+        height: 90px;
+    }
+
+    .Group-12 {
+        width: 89.9px;
+        height: 58.9px;
+    }
+
+    .Group {
+        width: 89.4px;
+        height: 89.4px;
+    }
+
+    .Drakes-new-logo {
+        width: 110px;
+        height: 28px;
+    }
+
+    .logo-richies {
+        width: 110px;
+        height: 56px;
+    }
+
+    .Group-26 {
+        width: 109.4px;
+        height: 62.1px;
+    }
+
+    .Group-18 {
+        width: 110px;
+        height: 22px;
+    }
+
+    .Group-112 {
+        width: 109.5px;
+        height: 47.9px;
+    }
+
+    .Group-83 {
+        height: 37px;
+    }
+
+    .Group-22 {
+        height: 23px;
+    }
+
+    .group1 {
+        width: 105px;
+        height: 51px;
+    }
+
+    .Group-47 {
+        height: 24px;
+    }
+
+    .campustrading {
+        width: 97px;
+        height: 39px;
+    }
+
+    .Group-145 {
+        width: 120px;
+    }
+
+    .shop:nth-child(2n) {
+        margin: 0 0px 10px 0;
+    }
+}
+
+@media all and (max-width:320px) {
+    .shop {
+        width: 145px;
+        height: 145px;
+    }
+
+    .container {
+        padding: 0 10px 0;
+    }
+}
